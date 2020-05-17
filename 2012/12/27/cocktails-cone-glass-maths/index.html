@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cocktail dosage in martini glasses: Maths are here to help</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" sizes="32x32" href="/icon-32.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cocktail dosage in martini glasses: Maths are here to help">
+  <meta name="author" content="Steren Giannini">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@steren">
+  <meta name="twitter:title" content="Cocktail dosage in martini glasses: Maths are here to help">
+  <meta name="twitter:image" content="https://blog.steren.fr/2012/12/27/cocktails-cone-glass-maths/../../../08/dsc_08811.jpg%3Fw=300___IMAGE___amp;h=199">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Cocktail dosage in martini glasses: Maths are here to help">
+  <meta property="og:image" content="https://blog.steren.fr/2012/12/27/cocktails-cone-glass-maths/../../../08/dsc_08811.jpg%3Fw=300___IMAGE___amp;h=199">
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "author": "Steren Giannini",
+    "name": "Cocktail dosage in martini glasses: Maths are here to help",
+    "image": "https://blog.steren.fr/2012/12/27/cocktails-cone-glass-maths/../../../08/dsc_08811.jpg%3Fw=300___IMAGE___amp;h=199"
+  }
+  </script>
+
+</head>
+<body>
+<header>
+<h1><a href="/" rel="home">Steren's blog</a></h1>
+</header><main role="main">
+  <article>
+    <header>
+      <span/>
+      <h2 href="index.html">Cocktail dosage in martini glasses: Maths are here to help</h2>
+      <span href="index.html">
+        <time datetime="2012-12-27T12:00:51+02:00">December 27, 2012</time>
+      </span>
+    </header>
+    <p>New Year’s Eve is getting close, you’d beter be prepared. Let me share a problem I had last day when I decided to make cocktails in martini glasses. How was I suppose to dose my ingredients in such cone-shaped glasses?</p>
+    <figure data-shortcode="caption" aria-describedby="caption-attachment-412">
+      <img alt="cocktail in a cone-shaped glass" src="../../../08/dsc_08811.jpg%3Fw=300&amp;h=199"/>
+      <figcaption>How to properly dose a cocktail in a cone-shaped glass?</figcaption>
+    </figure>
+    <p>Let’s take a first example, <em><a href="http://en.wikipedia.org/wiki/Black_Russian">The Black Russian</a></em> recipe is:</p>
+    <blockquote>
+      <p>2/3 Vodka</p>
+      <p>1/3  Kahlúa</p>
+    </blockquote>
+    <p>The problem is that you cannot apply these proportions to the heights of each liquid since the glass is not a cylinder. For a same height, the volume will not be the same, and your cocktail a failure.</p>
+    <p>Our question is:</p>
+    <blockquote>
+      <p>What is the ratio between the heights of the two liquids that will make their volumes meet the recipe proportions?</p>
+    </blockquote>
+    <p>What we have is two volumes v<sub>V</sub> and v<sub>K</sub> and their proportion to the total of liquid V<sub>total</sub> = v<sub>V</sub> + v<sub>K</sub>:<br/><img alt="" src="http://chart.apis.google.com/chart?cht=tx&amp;chl=\frac{v_V}{V_{total}} = \frac{2}{3}"/><br/>
+And what we want is the ratio h<sub>V</sub> / H<sub>total</sub> between the height of Vodka and the total height of liquid.</p>
+    <p>
+      <img alt="cone" src="../../../08/cone.png%3Fw=167&amp;h=210"/>
+    </p>
+    <p>Volume of a cone is <img alt="" src="http://chart.apis.google.com/chart?cht=tx&amp;chl=v = \frac{1}{3} B h"/>, <img alt="" src="http://chart.apis.google.com/chart?cht=tx&amp;chl=B = \pi r^2"/>  being the base with its radius r.</p>
+    <p>We then use <a href="http://en.wikipedia.org/wiki/Intercept_theorem">Thales’ theorem</a> to link any radius r to its corresponding height h:</p>
+    <p>
+      <img alt="" src="http://chart.apis.google.com/chart?cht=tx&amp;chl=r = h\frac{ R_{total}}{H_{total}}"/>
+    </p>
+    <p>By using the two last formulas in our volume ratio equation, we get:</p>
+    <p>
+      <img alt="" src="http://chart.apis.google.com/chart?cht=tx&amp;chl=\frac{v_V}{V_{total}}=\frac{h_V^3}{H_{total}^3}"/>
+    </p>
+    <p>What we demonstrated here is a kind of Thales’ theorem (Intercept theorem), but for 3D cones. We obviously have the same kind of result with surfaces of triangles. That’s interesting, that’s a result I never encountered in the past. And it doesn’t only apply to right circular cones, but to any type of cone (pyramids for example), this can be proved by computing the base B using an integral.</p>
+    <p>The answer to our initial question is then:</p>
+    <p>
+      <img alt="" src="http://chart.apis.google.com/chart?cht=tx&amp;chl=\frac{h_V}{H_{total}} = \sqrt[3]{\frac{2}{3}} \approx 0.87"/>
+    </p>
+    <p>That’s right, <strong>to have 2/3 of vodka in volume, the height of vodka should be almost 90% of the total height</strong>. If the ratio had been 1/2, the height of the first liquid should have been 80% of the total height. It’s not that obvious to me.</p>
+    <p>Last point, if your cocktail has more than two ingredients (for example a <em><a href="http://en.wikipedia.org/wiki/White_Russian_(cocktail)">White Russian</a></em>), I would suggest to always consider cones and not bother with substractions:</p>
+    <blockquote>
+      <p>1/3 Vodka</p>
+      <p>1/3  Kahlúa</p>
+      <p>1/3 Cream</p>
+    </blockquote>
+    <p>Start by adding 1/3 Kahlúa (70% of total height), then add Vodka until 2/3 of volume (90% of total height) and complete with cream.</p>
+    <p>Enjoy your cocktails, and happy new year!</p>
+  </article>
+</main>
+<footer></footer>
+</body>
+</html>
