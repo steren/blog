@@ -54,6 +54,13 @@ body{
   color: #000000;
 }
 
+.pages a::before {
+  content: attr(year) " - ";
+  color: #838383;
+  display: inline-block; 
+  text-decoration: none; 
+}
+
 @media (prefers-color-scheme: dark) {
   .pages a,
   .pages a:visited {
