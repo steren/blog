@@ -97,6 +97,7 @@ figure{
 figure figcaption{
   opacity:0.65;
   font-size:0.85em;
+  text-align: center
 }
 
 code, kbd, var, samp{
