@@ -61,11 +61,11 @@
 		It all started with <a href="https://labs.steren.fr/">a blog</a>, that I was hosting on Wordpress.com (which is "Wordpress-as-a-Service", because the last thing I want to do is administer of a Wordpress installation on my own server). I <strong>paid</strong> Wordpress.com to do one job: host my blog. And one day I looked at its sources and Lighthouse scores:
 		</p>
 		<figure>
-			<img src="wordpress-sources.png" alt="Sources of my Wordpress.com blog"/>
+			<img src="wordpress-sources.png" alt="Sources of my Wordpress.com blog, showing a lot of inlined unreadable scripts"/>
 			<figcaption>Sources of my Wordpress.com blog, what is all this?</figcaption>
 		</figure>
 		<figure>
-			<img src="wordpress-lighthouse.png" alt="Lighthouse scores of my Wordpress.com blog"/>
+			<img src="wordpress-lighthouse.png" alt="Lighthouse scores of my Wordpress.com blog, showing 19/100 for Performance"/>
 			<figcaption>Lighthouse score of my blog hosted on Wordpress.com</figcaption>
 		</figure>
 		<p>
@@ -85,6 +85,11 @@
 		<p>
 		It was time to say goodbye to Wordpress. I didn’t need 99% of its features anyway. Other blogging platforms didn’t meet expectations either (I seriously have no idea why so many people publish on Medium… behind a login wall). I looked at static site generators like Jekyll, Hugo, 11ty, but all of these require tooling installed, have a build step and will ultimately need some updates or be abandonned by their maintainer. What if we also get rid of these? The best tool is no tool, the best build step is no build step, the best update is no update. And HTML gives us all that. 
 		</p>
+
+		<figure>
+			<img src="lighthouse-score-pure-html-css.svg" alt="Lighthouse score of 100"/>
+			<figcaption>Lighthouse score of this page</figcaption>
+		</figure>
 
 		<h3>What is the HTML+CSS stack good for?</h3>
 		<p>
