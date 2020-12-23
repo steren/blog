@@ -44,10 +44,10 @@
 		My stack requires no maintenance, has perfect Lighthouse scores, will never have any security vulnerability, is based on open standards, is portable to any host, has an instant dev loop, has no build step and… will outlive any other stack.
 		</p>
 		<p>
-		It’s not <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a>, Wordpress, Rails, <a href="https://en.wikipedia.org/wiki/MEAN_(solution_stack)">MEAN</a>, Jamstack. I don’t do CSR (Client-side rendering), SSR (Server Side Rendering), SSG (Static Site Generation)...
+		It’s not LAMP, Wordpress, Rails, MEAN, Jamstack... I don’t do CSR (Client-side rendering), SSR (Server Side Rendering), SSG (Static Site Generation)...
 		</p>
 		<p>
-		My stack is HTML+CSS.
+		My stack is <b>HTML+CSS</b>.
 		</p>
 		<p>
 		And because my sources are in git, pushed to GitHub, <a href="https://pages.github.com/">GitHub Pages</a> is my host.
@@ -65,13 +65,9 @@
 			<figcaption>Sources of my Wordpress.com blog</figcaption>
 		</figure>
 		<figure>
-			<img src="wordpress-lighthouse.png" alt="Lighthouse Score of my Wordpress.com blog"/>
-			<figcaption>Lighthouse Score of my Wordpress.com blog</figcaption>
+			<img src="wordpress-lighthouse.png" alt="Lighthouse score of my Wordpress.com blog"/>
+			<figcaption>Lighthouse score of my Wordpress.com blog</figcaption>
 		</figure>
-		
-		
-		<p>
-
 		<p>
 		What have we done?
 		</p>
@@ -82,7 +78,7 @@
 		My requirements were simplicity and performance.
 		</p>
 		<p>
-		It was time to say goodbye to Wordpress. I didn’t need 99% of its features anyway. Other blogging platforms didn’t meet expectations either (I seriously have no idea why so many people publish on Medium… behind a login wall). I looked at static site generators like Jekyll, Hugo, 11ty, but all of these require tooling installed, have a build step and will ultimately need some updates. What if we also get rid of these?
+		It was time to say goodbye to Wordpress. I didn’t need 99% of its features anyway. Other blogging platforms didn’t meet expectations either (I seriously have no idea why so many people publish on Medium… behind a login wall). I looked at static site generators like Jekyll, Hugo, 11ty, but all of these require tooling installed, have a build step and will ultimately need some updates. What if we also get rid of these? The best tool is no tool, the bext build step is no build step, the best upgrade is no update. And HTML gives us all that. 
 		</p>
 
 		<h3>What is the HTML+CSS stack good for?</h3>
@@ -110,12 +106,13 @@
 		Keep the HTML of every page minimal and semantic. First, because there is no need for countless of &lt;div>, but then because it makes sources more readable and easier to edit. Creating a new page requires you to clone an existing one.
 		</p>
 		<p>
+		For consistency, all pages that need to share the same style can point to the same CSS file. This avoids  duplication when it comes to styling (but note that loading this file creates an extra HTTP request, which could be avoided if style was inlined).
+		</p>
+		<p>
 		When not cluttered with unnecessary scripts, divs or classes, I have no issue writing HTML directly. Yes, the paragraph tags are a bit annoying and distracting, but proper indentation and syntax highlighting mitigate this.
-		</p>
-		<p>
+		<br>
 		Sometimes, for drafting long blog articles, I’m working in Google Docs, and when I’m happy, export the content to clean HTML using an add-on. Google Docs is awesome for collaboration, with a powerful suggestions and commenting system. That’s ideal for the “draft” phase. 
-		</p>
-		<p>
+		<br>
 		Because all content is in git, approval and doing a final review can be done via GitHub pull requests.
 		</p>
 		<p>
@@ -127,7 +124,7 @@
 		
 		<h3>In conclusion</h3>
 		<p>
-		You don’t need React, Next.js, Wordpress, or Hugo to put a web page or blog online. Raw HTML and CSS do the job.
+		You don’t need  Wordpress, or Hugo to put a blog onine, or Angular, React or Next.js to put a web page online. Raw HTML and CSS do the job.
 		</p>
 		<p>
 		That being said, you’ll need to pick up some tooling or framework if you want to build a web app or add some interactivity or customization to your web pages. And for that, I’m very glad to see that frameworks now seem to be prioritizing performance, notably by serving the HTML over the wire and leveraging caching whenever possible. The era of “download 5MB of JS first and then download content from an API” seems to be over for content web pages. (I personally think it’s still OK to do so for web apps,as the user’s intent is different).
