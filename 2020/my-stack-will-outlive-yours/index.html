@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My stack will outlive yours</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My stack will outlive yours">
+  <meta name="author" content="Steren Giannini">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@steren">
+  <meta name="twitter:title" content="My stack will outlive yours">
+  <meta name="twitter:image" content="https://blog.steren.fr/2020/my-stack-will-outlive-yours/lighthouse-score-improve.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="My stack will outlive yours">
+  <meta property="og:image" content="https://blog.steren.fr/2020/my-stack-will-outlive-yours/lighthouse-score-improve.png">
+
+  <script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"author": "Steren Giannini",
+	"name": "My stack will outlive yours",
+	"image": "https://blog.steren.fr/2020/my-stack-will-outlive-yours/lighthouse-score-improve.png"
+  }
+  </script>
+
+</head>
+<body>
+<header>
+<h1><a href="/" rel="home">Steren's blog</a></h1>
+</header><main role="main">
+  <article>
+	<header>
+		<h2>My stack will outlive yours</h2>
+		<time date="2020-12-22">December 2020</time>
+	</header>
+
+		<p>
+		My stack requires no maintenance, has perfect Lighthouse scores, will never have any security vulnerability, is based on open standards, is portable to any host, has an instant dev loop, has no build step and… will outlive any other stack.
+		</p>
+		<p>
+		It’s not <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a>, Wordpress, Rails, <a href="https://en.wikipedia.org/wiki/MEAN_(solution_stack)">MEAN</a>, Jamstack. I don’t do CSR (Client-side rendering), SSR (Server Side Rendering), SSG (Static Site Generation)...
+		</p>
+		<p>
+		My stack is HTML+CSS.
+		</p>
+		<p>
+		And because my sources are in git, pushed to GitHub, <a href="https://pages.github.com/">GitHub Pages</a> is my host.
+		</p>
+		<p>
+		Of course, I’m being a bit provocative here. I should rather say that I use only HTML+CSS for some specific use cases where others might be relying on some more popular technologies. Because I’m done rewriting my site every couple of years.
+		</p>
+
+		<h3>Why HTML+CSS?</h3>
+		<p>
+		It all started with <a href="https://labs.steren.fr/">a blog</a>, that I was hosting on Wordpress.com (which is "Wordpress-as-a-Service", because the last thing I want to do is be the administrator of a custom Wordpress installation). I <strong>paid</strong> Wordpress.com to do one job: host my blog. And one day I looked at its sources and Lighthouse scores:
+		</p>
+		<figure>
+			<img src="wordpress-sources.png" alt="Sources of my Wordpress.com blog"/>
+			<figcaption>Sources of my Wordpress.com blog</figcaption>
+		</figure>
+		<figure>
+			<img src="wordpress-lighthouse.png" alt="Lighthouse Score of my Wordpress.com blog"/>
+			<figcaption>Lighthouse Score of my Wordpress.com blog</figcaption>
+		</figure>
+		
+		
+		<p>
+
+		<p>
+		What have we done?
+		</p>
+		<p>
+		Sure, this is just one specific blogging platform and I’m pretty sure others are better, at least in terms of performance. But isn’t there something fundamentally wrong if displaying a short text article with some images takes seconds, loads countless render-blocking scripts, and has unreadable page sources?
+		</p>
+		<p>
+		My requirements were simplicity and performance.
+		</p>
+		<p>
+		It was time to say goodbye to Wordpress. I didn’t need 99% of its features anyway. Other blogging platforms didn’t meet expectations either (I seriously have no idea why so many people publish on Medium… behind a login wall). I looked at static site generators like Jekyll, Hugo, 11ty, but all of these require tooling installed, have a build step and will ultimately need some updates. What if we also get rid of these?
+		</p>
+
+		<h3>What is the HTML+CSS stack good for?</h3>
+		<p>
+		Let’s first differentiate between a web page and a web app: a web <em>page</em>’s goal is to serve content, on the other hand, the web <em>app</em>’s goal is to enable you to perform interactive tasks. There are in-betweens too, often in the form of content that might need customization depending on the logged in user and content that might allow some interactions.
+		</p>
+		<p>
+		HTML+CSS fits the web <em>page</em> use case. Wow, what a revelation! It might seem obvious, but it seems we’ve all forgotten this these days. HTML+CSS does not fit the web <em>app </em>use case, or any in between.
+		</p>
+		<p>
+		We said a web <em>page</em> serves content, but let’s dive into more concrete use cases:
+		</p>
+		<ul>
+			<li>Product / Company / Business landing page and marketing sites</li>
+			<li>Personal portfolio / bio</li>
+			<li>Blog</li>
+			<li>Documentation</li>
+		</ul>
+
+		<h3>How to develop for HTML+CSS?</h3>
+		<p>
+		Authoring a pure HTML+CSS site can be done in any text editor, in any environment (any desktop OS, any smartphone, or even directly using GitHub’s single file editor) and previewed by simply opening the file in any browser.
+		</p>
+		<p>
+		Keep the HTML of every page minimal and semantic. First, because there is no need for countless of &lt;div>, but then because it makes sources more readable and easier to edit. Creating a new page requires you to clone an existing one.
+		</p>
+		<p>
+		When not cluttered with unnecessary scripts, divs or classes, I have no issue writing HTML directly. Yes, the paragraph tags are a bit annoying and distracting, but proper indentation and syntax highlighting mitigate this.
+		</p>
+		<p>
+		Sometimes, for drafting long blog articles, I’m working in Google Docs, and when I’m happy, export the content to clean HTML using an add-on. Google Docs is awesome for collaboration, with a powerful suggestions and commenting system. That’s ideal for the “draft” phase. 
+		</p>
+		<p>
+		Because all content is in git, approval and doing a final review can be done via GitHub pull requests.
+		</p>
+		<p>
+		When I publish a new page, I need to link to it manually from the index page. I’m OK with that. It’s done in one line. It also allows me to have more control over when I want the page to be “published”.
+		</p>
+		<p>
+		But... if I don’t use any templating system, how do I update my header, footer or nav? Well, simply by using the ”Replace in files” feature of any good text editor. They don’t need frequent updates anyway. The benefits of using a templating system is not worth the cost of introducing it.
+		</p>
+		
+		<h3>In conclusion</h3>
+		<p>
+		You don’t need React, Next.js, Wordpress, or Hugo to put a web page or blog online. Raw HTML and CSS do the job.
+		</p>
+		<p>
+		That being said, you’ll need to pick up some tooling or framework if you want to build a web app or add some interactivity or customization to your web pages. And for that, I’m very glad to see that frameworks now seem to be prioritizing performance, notably by serving the HTML over the wire and leveraging caching whenever possible. The era of “download 5MB of JS first and then download content from an API” seems to be over for content web pages. (I personally think it’s still OK to do so for web apps,as the user’s intent is different).
+		</p>
+		<p>
+		Is the “HTML+CSS only” approach a bit extreme? A bit, it’s basically saying “all software is terrible, how can minimize depending on software at all”. Web standards are a model of backward compatibility. I’m pretty confident that my web pages written in raw HTML+CSS will have no issue being accessed 10 years from now, and this without me having to do anything.
+		</p>  
+	</article>
+</main>
+<footer></footer>
+</body>
+</html>
