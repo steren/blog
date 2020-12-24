@@ -1,3 +1,7 @@
+:root {
+  --article-max-width: 40rem;
+}
+
 html {
   font-family: Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.4;
@@ -15,7 +19,7 @@ body{
 }
 
 header, main {	
-  max-width: 40rem;	
+  max-width: var(--article-max-width);	
   margin: 0 auto;	
 }
 
@@ -98,6 +102,16 @@ figure figcaption{
   opacity:0.65;
   font-size:0.85em;
   text-align: center
+}
+
+figure.gallery{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+figure.gallery img{
+  max-width: calc(var(--article-max-width) / 3);
 }
 
 code, kbd, var, samp{
