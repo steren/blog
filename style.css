@@ -13,6 +13,10 @@ html {
   }
 }
 
+.need-light-background {
+  background-color: #FFFFFF;
+}
+
 body{
   margin:1.2em;
   font-size:1rem;
