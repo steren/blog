@@ -41,30 +41,27 @@ html {
 }
 
 body{
-  margin:1.2em;
-  font-size:1rem;
+  margin :1.2em;
+  font-size: 1rem;
 }
 
 .pages {
   margin: 0;
-  padding: 0;
+  padding-inline-start: 6ch;
 }
 
 .pages li {
-  list-style-type: none;
-  padding: 0.5rem 0;
+  padding-block-end: 0.5rem;
+}
+
+.pages li::marker {
+  content: attr(year) " - ";
+  color: #838383;
 }
 
 a,
 a:visited {
   color: #000000;
-}
-
-.pages a::before {
-  content: attr(year) " - ";
-  color: #838383;
-  display: inline-block; 
-  text-decoration: none; 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -90,78 +87,78 @@ a:visited {
   </header>
   <main>
    <ol class="pages">
-    <li>
-      <a href="2020/my-stack-will-outlive-yours/" year="2020">
+    <li year="2020">
+      <a href="2020/my-stack-will-outlive-yours/">
        My stack will outlive yours
       </a>
      </li>
-    <li>
-     <a href="2014/03/16/photographic-memory/" year="2014">
+    <li year="2014">
+     <a href="2014/03/16/photographic-memory/">
       Photographic memory
      </a>
     </li>
-    <li>
-     <a href="2013/12/13/technology-foreign-language/" year="2013">
+    <li year="2013">
+     <a href="2013/12/13/technology-foreign-language/">
       The Technological Guide to a Foreign Language
      </a>
     </li>
-    <li>
-     <a href="2013/05/19/dali-tiger-inspiration/"  year="2013">
+    <li year="2013">
+     <a href="2013/05/19/dali-tiger-inspiration/">
       Salvador Dalí’s tiger, quite inspired by an ad for Ringling Bros
      </a>
     </li>
-    <li>
-     <a href="2012/12/27/cocktails-cone-glass-maths/"  year="2012">
+    <li year="2012">
+     <a href="2012/12/27/cocktails-cone-glass-maths/">
       Cocktail dosage in martini glasses: Maths are here to help
      </a>
     </li>
-    <li>
-     <a href="2012/01/27/hack-days/" year="2012">
+    <li year="2012">
+     <a href="2012/01/27/hack-days/">
       Hack Days
      </a>
     </li>
-    <li>
-     <a href="2011/09/01/track-usage-search-by-image/" year="2011">
+    <li year="2011">
+     <a href="2011/09/01/track-usage-search-by-image/">
       Use Google “search by image” to track your pictures (or to spot fake facebook profiles)
      </a>
     </li>
-    <li>
-     <a href="2011/04/18/bokeh/" year="2011">
+    <li year="2011">
+     <a href="2011/04/18/bokeh/">
       Bokeh
      </a>
     </li>
-    <li>
-     <a href="2011/02/20/re-captcha-nanojobs-and-gwap/" year="2011">
+    <li year="2011">
+     <a href="2011/02/20/re-captcha-nanojobs-and-gwap/">
       re-Captcha, nanojobs and GWAP
      </a>
     </li>
-    <li>
-     <a href="2011/01/19/future-of-movies/" year="2011">
+    <li year="2011">
+     <a href="2011/01/19/future-of-movies/">
       Future of movies
      </a>
     </li>
-    <li>
-     <a href="2010/12/22/beansight-le-camping/" year="2010">
+    <li year="2010">
+     <a href="2010/12/22/beansight-le-camping/">
       Beansight selected for Le Camping
      </a>
     </li>
-    <li>
-     <a href="2010/09/27/every-team-needs-statusnet/" year="2010">
+    <li year="2010">
+     <a href="2010/09/27/every-team-needs-statusnet/">
       Every team needs StatusNet
      </a>
     </li>
-    <li>
-     <a href="2010/09/18/whats-next/" year="2010">
+    <li year="2010">
+     <a href="2010/09/18/whats-next/">
       What's next?
      </a>
     </li>
-    <li>
-     <a href="2010/03/12/improv-and-beyond/" year="2010">
+    <li year="2010">
+     <a href="2010/03/12/improv-and-beyond/">
       Improv and beyond
      </a>
     </li>
-    <li>
-     <a href="2010/02/14/native-applications-are-doomed/" year="2010">
+    <li year="2010">
+     <a href="2010/02/14/native-applications-are-doomed/">
       Native applications are doomed
      </a>
     </li>
