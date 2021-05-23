@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Steren's blog</title>
+	<subtitle>Thoughts that don't fit in a tweet.</subtitle>
+	<link href="https://blog.steren.fr/atom.xml" rel="self" />
+	<link href="https://blog.steren.fr/" />
+	<id>https://blog.steren.fr/</id>
+	<author>
+		<name>Steren Giannini</name>
+		<uri>https://steren.fr</uri>
+	</author>
+	<icon>/icon.svg</icon>
+	<updated>2021-05-23T12:01:00Z</updated>
+
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2020/my-stack-will-outlive-yours/" />
+		<id>https://blog.steren.fr/2020/my-stack-will-outlive-yours/</id>
+		<title>My stack will outlive yours</title>
+		<updated>2020-12-01T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2014/03/16/photographic-memory/" />
+		<id>https://blog.steren.fr/2014/03/16/photographic-memory/</id>
+		<title>Photographic memory</title>
+		<updated>2014-03-16T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2013/12/13/technology-foreign-language/" />
+		<id>https://blog.steren.fr/2013/12/13/technology-foreign-language/</id>
+		<title>The Technological Guide to a Foreign Language</title>
+		<updated>2013-12-13T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2013/05/19/dali-tiger-inspiration/" />
+		<id>https://blog.steren.fr/2013/05/19/dali-tiger-inspiration/</id>
+		<title>Salvador Dalí’s tiger, quite inspired by an ad for Ringling Bros</title>
+		<updated>2013-05-19T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2012/12/27/cocktails-cone-glass-maths/" />
+		<id>https://blog.steren.fr/2012/12/27/cocktails-cone-glass-maths/</id>
+		<title>Cocktail dosage in martini glasses: Maths are here to help</title>
+		<updated>2012-12-27T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2012/01/27/hack-days/" />
+		<id>https://blog.steren.fr/2012/01/27/hack-days/</id>
+		<title>Hack Days</title>
+		<updated>2012-01-27T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2011/09/01/track-usage-search-by-image/" />
+		<id>https://blog.steren.fr/2011/09/01/track-usage-search-by-image/</id>
+		<title>Use Google “search by image” to track your pictures (or to spot fake facebook profiles)</title>
+		<updated>2011-09-01T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2011/04/18/bokeh/" />
+		<id>https://blog.steren.fr/2011/04/18/bokeh/</id>
+		<title>Bokeh</title>
+		<updated>2011-04-18T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2011/02/20/re-captcha-nanojobs-and-gwap/" />
+		<id>https://blog.steren.fr/2011/02/20/re-captcha-nanojobs-and-gwap/</id>
+		<title>re-Captcha, nanojobs and GWAP</title>
+		<updated>2011-02-20T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2011/01/19/future-of-movies/" />
+		<id>https://blog.steren.fr/2011/01/19/future-of-movies/</id>
+		<title>Future of movies</title>
+		<updated>2011-01-19T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2010/12/22/beansight-le-camping/" />
+		<id>https://blog.steren.fr/2010/12/22/beansight-le-camping/</id>
+		<title>Beansight selected for Le Camping</title>
+		<updated>2010-12-22T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2010/09/27/every-team-needs-statusnet/" />
+		<id>https://blog.steren.fr/2010/09/27/every-team-needs-statusnet/</id>
+		<title>Every team needs StatusNet</title>
+		<updated>2010-09-27T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2010/09/18/whats-next/" />
+		<id>https://blog.steren.fr/2010/09/18/whats-next/</id>
+		<title>What's next?</title>
+		<updated>2010-09-18T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2010/03/12/improv-and-beyond/" />
+		<id>https://blog.steren.fr/2010/03/12/improv-and-beyond/</id>
+		<title>Improv and beyond</title>
+		<updated>2010-03-12T00:00:00Z</updated>
+	</entry>
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2010/02/14/native-applications-are-doomed/" />
+		<id>https://blog.steren.fr/2010/02/14/native-applications-are-doomed/</id>
+		<title>Native applications are doomed</title>
+		<updated>2010-02-14T00:00:00Z</updated>
+	</entry>
+
+</feed>
