@@ -31,12 +31,12 @@
 		<title>The Technological Guide to a Foreign Language</title>
 		<updated>2013-12-13T00:00:00Z</updated>
 	</entry>
-	<entry>
+	<!-- <entry>
 		<link rel="alternate" href="https://blog.steren.fr/2013/05/19/dali-tiger-inspiration/" />
 		<id>https://blog.steren.fr/2013/05/19/dali-tiger-inspiration/</id>
 		<title>Salvador Dalí’s tiger, quite inspired by an ad for Ringling Bros</title>
 		<updated>2013-05-19T00:00:00Z</updated>
-	</entry>
+	</entry> -->
 	<entry>
 		<link rel="alternate" href="https://blog.steren.fr/2012/12/27/cocktails-cone-glass-maths/" />
 		<id>https://blog.steren.fr/2012/12/27/cocktails-cone-glass-maths/</id>
@@ -73,24 +73,24 @@
 		<title>Future of movies</title>
 		<updated>2011-01-19T00:00:00Z</updated>
 	</entry>
-	<entry>
+	<!-- <entry>
 		<link rel="alternate" href="https://blog.steren.fr/2010/12/22/beansight-le-camping/" />
 		<id>https://blog.steren.fr/2010/12/22/beansight-le-camping/</id>
 		<title>Beansight selected for Le Camping</title>
 		<updated>2010-12-22T00:00:00Z</updated>
-	</entry>
+	</entry> -->
 	<entry>
 		<link rel="alternate" href="https://blog.steren.fr/2010/09/27/every-team-needs-statusnet/" />
 		<id>https://blog.steren.fr/2010/09/27/every-team-needs-statusnet/</id>
 		<title>Every team needs StatusNet</title>
 		<updated>2010-09-27T00:00:00Z</updated>
 	</entry>
-	<entry>
+	<!-- <entry>
 		<link rel="alternate" href="https://blog.steren.fr/2010/09/18/whats-next/" />
 		<id>https://blog.steren.fr/2010/09/18/whats-next/</id>
 		<title>What's next?</title>
 		<updated>2010-09-18T00:00:00Z</updated>
-	</entry>
+	</entry> -->
 	<entry>
 		<link rel="alternate" href="https://blog.steren.fr/2010/03/12/improv-and-beyond/" />
 		<id>https://blog.steren.fr/2010/03/12/improv-and-beyond/</id>
