@@ -30,6 +30,10 @@
   }
   </script>
   <style>
+:root {
+  --article-max-width: 40rem;
+}
+
 html {
   font-family: Georgia,serif;
   line-height: 1.4;
@@ -42,8 +46,18 @@ html {
 }
 
 body{
-  margin :1.2em;
+  margin : 1.2em;
+  margin-top: 4rem;
   font-size: 1rem;
+}
+
+header, main {	
+  max-width: var(--article-max-width);	
+  margin: 0 auto;	
+}
+
+main {
+  margin-top: 4rem;
 }
 
 .pages {
@@ -52,7 +66,7 @@ body{
 }
 
 .pages li {
-  padding-block-end: 0.5rem;
+  padding-block-end: 1rem;
 }
 
 .pages li::marker {
