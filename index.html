@@ -4,6 +4,7 @@
   <title>Steren's essays</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="view-transition" content="same-origin">
   <meta name="description" content="So many drafts, so few posts">
   <meta name="author" content="Steren Giannini">
   <link rel="icon" type="image/svg+xml" href="/icon.svg">
@@ -56,6 +57,11 @@ header, main, footer {
   margin: 0 auto;	
 }
 
+h1 {
+  font-size: 2.5em;
+  view-transition-name: title;
+}
+
 main {
   margin-top: 4rem;
 }
@@ -92,18 +98,18 @@ a:visited {
  <body>
   <header>
    <h1>
-    <a href="https://steren.fr" rel="me">Steren</a>'s essays
+    Steren's essays
    </h1>
    <p>
     Thoughts that don't fit in a <a href="https://twitter.com/steren" rel="me">tweet</a>.
     <br>
-    See also my <a href="https://labs.steren.fr/">side projects and experiments</a>.
+    See also my <a href="https://steren.fr" rel="me">work</a> and <a href="https://labs.steren.fr/">side projects and experiments</a>.
    </p>
   </header>
   <main>
    <ol class="pages">
     <li year="2020">
-      <a href="2020/my-stack-will-outlive-yours/">
+      <a href="2020/my-stack-will-outlive-yours/" id="stack">
        My stack will outlive yours
       </a>
      </li>
