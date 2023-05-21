@@ -59,7 +59,6 @@ header, main, footer {
 
 h1 {
   font-size: 2.5em;
-  view-transition-name: title;
 }
 
 main {
@@ -84,10 +83,6 @@ main {
   text-wrap: balance;
 }
 
-.pages li a:hover {
-  view-transition-name: article-title;
-}
-
 a,
 a:visited {
   color: #000000;
@@ -100,6 +95,16 @@ a:visited {
   }
 }
 
+/* View transitions. Only if OK to use motion */
+@media not (prefers-reduced-motion: reduce) {
+  h1 {
+    view-transition-name: title;
+  }
+
+  .pages li a:hover {
+    view-transition-name: article-title;
+  }
+}
 
   </style>
  </head>

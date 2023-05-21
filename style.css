@@ -58,12 +58,10 @@ ul, ol{
 
 h1{
   font-size: 2.5em;
-  view-transition-name: title;
 }
   
 h2{
   font-size: 1.75em;
-  view-transition-name: article-title;
   text-wrap: balance;
 }
 
@@ -151,4 +149,14 @@ pre > code{
   min-width:100%;
   border-right:3px solid white;
   border-left:1px solid white;
+}
+
+@media not (prefers-reduced-motion: reduce) {
+  h1{
+    view-transition-name: title;
+  }
+
+  h2{
+    view-transition-name: article-title;
+  }
 }
