@@ -151,6 +151,10 @@ pre > code{
   border-left:1px solid white;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 @media not (prefers-reduced-motion: reduce) {
   h1{
     view-transition-name: title;
