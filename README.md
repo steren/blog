@@ -1,5 +1,5 @@
 # Steren's essays
 
-My personal blog. Not much content
+My personal blog.
 
 https://blog.steren.fr
