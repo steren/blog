@@ -118,6 +118,19 @@ figure figcaption{
   text-align: center
 }
 
+figure.zoomable {
+  transition: transform 0.3s;
+}
+
+figure.zoomable:hover {
+  transform: scale(1.1);
+}
+
+
+figure.zoomable:active {
+  transform: scale(2);
+}
+
 figure.gallery{
   display: flex;
   justify-content: space-evenly;
