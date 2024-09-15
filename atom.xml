@@ -11,8 +11,14 @@
 		<uri>https://steren.fr</uri>
 	</author>
 	<icon>/icon.svg</icon>
-	<updated>2021-05-23T12:01:00Z</updated>
+	<updated>2024-09-14T12:01:00Z</updated>
 
+	<entry>
+		<link rel="alternate" href="https://blog.steren.fr/2024/how-we-power-home-with-own-solar-energy/" />
+		<id>https://blog.steren.fr/2024/how-we-power-home-with-own-solar-energy/</id>
+		<title>How we power our home with our own solar energy</title>
+		<updated>2024-09-04T00:00:00Z</updated>
+	</entry>
 	<entry>
 		<link rel="alternate" href="https://blog.steren.fr/2020/my-stack-will-outlive-yours/" />
 		<id>https://blog.steren.fr/2020/my-stack-will-outlive-yours/</id>
