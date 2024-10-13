@@ -29,6 +29,23 @@
     "description": "So many drafts, so few posts"
   }
   </script>
+  <script type="speculationrules">
+  {
+    "prerender": [{
+      "eagerness": "immediate",
+      "where": {
+        "selector_matches": ".pages li a:first-child" 
+      }
+    },
+    {
+      "eagerness": "moderate",
+      "where": {
+        "href_matches": "/*"
+      }
+    }]
+  }
+  </script>
+
   <style>
 :root {
   --article-max-width: 40rem;
