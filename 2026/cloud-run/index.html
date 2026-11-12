@@ -75,6 +75,9 @@
   grid-template-columns: 2.5rem minmax(0, 1fr);
   column-gap: 0.75rem;
   align-items: start;
+  /* Average rendered post is ~220px. `auto` remembers the real height after first layout. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 220px;
 }
 .x-thread > ol header {
   margin: 0;
